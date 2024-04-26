@@ -1,0 +1,55 @@
+.car-image{
+    height: 190px;
+}
+.car-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 50px;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0px 10px;
+    transition: transform 0.3s ease;
+}
+.car-list:hover{
+    transform: scale(1.05);
+}
+.car-make{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000d6b;
+}
+.car-model{
+    font-size: 14px;
+    color: #5C5470;
+}
+.car-image{
+    height: 230px;
+    width: 380px;
+    padding-top: 8px;
+}
+.details-btn{
+    background-color: #000d6b;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px;
+    float: right;
+    cursor: pointer;
+    border: none;
+    margin-left: 50px;
+}
+.caritem-names-container{
+    display: flex;
+    align-items: center;
+}
+.car-make-model-container{
+    line-height: 1;
+    margin-left: 50px;
+}

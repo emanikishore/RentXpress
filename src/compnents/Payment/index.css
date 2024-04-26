@@ -1,0 +1,9 @@
+.booked-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.car-booked{
+    height: 50%;
+}

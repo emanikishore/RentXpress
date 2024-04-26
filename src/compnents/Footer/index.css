@@ -1,0 +1,69 @@
+.footer {
+    background: #000d6b;
+    padding-top: 50px;
+    padding-bottom: 15px;
+
+    
+  }
+  .app-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+
+  }
+  
+  .footer__logo {
+    color: #fff;
+    font-weight: 400;
+  }
+  .container1{
+    width: 40%;
+    margin-left: 20px;
+  }
+  .container2{
+    width: 15%;
+    margin-left: 20px;
+  }
+  .container3{
+    width: 20%;
+    margin-left: 20px;
+  }
+  .container4{
+    width: 35%;
+    margin-left: 20px;
+  }
+  .footer__logo-content{
+    color: rgba(255, 255, 255, 0.715);
+  }
+  .office__info{
+    color: rgba(255, 255, 255, 0.715);
+
+  }
+  .section__description{
+    color: rgba(255, 255, 255, 0.715);
+
+  }
+  .quick__link  {
+    color: rgba(255, 255, 255, 0.715);
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+  }
+  .quick__link :hover {
+    color: #f9a826;
+  }
+  .footer__bottom {
+    border-top: 1px solid #7c8a972f;
+  }
+  .newsletter input {
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+  
+.footer-follow{
+  color: white;
+  font-size: 20px;
+}

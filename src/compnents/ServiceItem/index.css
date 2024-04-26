@@ -1,0 +1,27 @@
+.service-card{
+    width: 28%;
+    margin: 20px;
+    list-style: none;
+}
+.services-heading{
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.services-description{
+    color: #B4B4B8;
+    font-size: 15px;
+
+}
+.service-icon-head-container{
+    display: flex;
+    align-items: center;
+}
+.service-icon{
+    font-size: 25px;
+    color: #000d6b;
+    margin-right: 10px;
+}

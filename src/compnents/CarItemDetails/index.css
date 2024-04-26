@@ -1,0 +1,36 @@
+.car-details-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.car-details{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin-left: 100px;
+}
+.car-detail-image{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 400px;
+}
+.car-details-btn{
+    background-color: #000d6b;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.car-make-heading{
+    color: #000d6b;
+    font-size: 30px;
+    font-weight: bold;
+}
+.car-detail-span{
+    color: #5C5470;
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+.rental-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: url('D:\Users\emaan\Desktop\Project\app\Car-Rental\src\assets\all-images\blog-img\bg_cars.png'),-webkit-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 1%,
+        rgba(0, 0, 0, 0) 35%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      -webkit-linear-gradient(
+        right,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 1%,
+        rgba(0, 0, 0, 0) 35%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      -webkit-linear-gradient(
+        bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 1%,
+        rgba(0, 0, 0, 0) 35%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      -webkit-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 1%,
+        rgba(0, 0, 0, 0) 35%,
+        rgba(0, 0, 0, 0) 100%
+      );
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    height: 100vh;
+}
+.rent-car-image{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 400px;
+}
+.price-model-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: white;
+}
+.car-rent-details{
+    background-color: #35374B;
+    border-radius: 10px;
+}
+.rental-details{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+.pick-up-location{
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.date{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.time{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.drop-off-location{
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.price-details-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.rent-btn{
+    background-color: #000d6b;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

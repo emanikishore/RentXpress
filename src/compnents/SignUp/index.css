@@ -1,0 +1,82 @@
+.signup-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: url('D:\Users\emaan\Desktop\Project\app\Car-Rental\src\assets\all-images\blog-img\bg_cars.png'),-webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 1%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    -webkit-linear-gradient(
+      right,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 1%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    -webkit-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 1%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 1%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 0) 100%
+    );
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  height: 100vh;
+}
+.signup-form-container{
+  border: 2px solid white;
+  padding: 30px 60px;
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+}
+.signup-heading{
+  color: white;
+  text-align: center;
+}
+.head-image-container{
+  display: flex;
+}
+.full-name{
+  width: 300px !important;
+}
+.username {
+  width: 300px !important;
+}
+.full-name, .username , .email, .phone-number, .password, .confirm-password{
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 8px;
+  width: 300px;
+}
+.signup-form-container label{
+  color: white;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.signup-btn{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+}
